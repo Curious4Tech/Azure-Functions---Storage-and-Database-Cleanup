@@ -149,17 +149,6 @@ Both functions provide detailed logging:
    - Error count
    - Execution duration
 
-## Testing
-
-# Blob Storage Cleanup function
-
-![image](https://github.com/user-attachments/assets/8c5c12f7-3e3d-4e0c-bb91-5285de9ebff9)
-
-# Database Cleanup function
-
-![image](https://github.com/user-attachments/assets/7742c4d9-188a-4505-b944-1c252ad5a847)
-
-
 ## Troubleshooting
 
 ### Common Issues
@@ -186,10 +175,14 @@ Both functions provide detailed logging:
    - Verify blob count changes
    - Confirm deleted blobs match criteria
 
+![image](https://github.com/user-attachments/assets/8c5c12f7-3e3d-4e0c-bb91-5285de9ebff9)
+
 2. **Database Function**:
    - Review SQL Server audit logs
    - Verify record count changes
    - Check transaction logs
+   - 
+![image](https://github.com/user-attachments/assets/7742c4d9-188a-4505-b944-1c252ad5a847)
 
 ## Security Considerations
 
