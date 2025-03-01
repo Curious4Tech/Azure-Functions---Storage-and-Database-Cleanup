@@ -12,9 +12,9 @@ This project contains two Azure Functions that handle automated cleanup tasks:
 
 #### Environment Variables
 ```bash
-STORAGE_ACCOUNT_NAME="storadatainazure"    # Storage account name
-CONTAINER_NAME="conatinatertest"           # Container to clean up
-RETENTION_DAYS="90"                        # Retention period in days
+STORAGE_ACCOUNT_NAME="your_storage_accont_name"    # Storage account name
+CONTAINER_NAME="your_container_name"           # Container to clean up
+RETENTION_DAYS="90"                        # Retention period in days (adjust to fit your needs)
 ```
 
 #### Required Permissions
@@ -31,9 +31,9 @@ The function's managed identity needs these RBAC roles:
 
 #### Environment Variables
 ```bash
-SQL_SERVER="mysqlserverdemo100.database.windows.net"  # SQL Server address
-SQL_DATABASE="mydbfunction"                           # Database name
-RETENTION_DAYS="90"                                  # Retention period in days
+SQL_SERVER="your_server_name.database.windows.net"  # SQL Server address
+SQL_DATABASE="your_db_name"                           # Database name
+RETENTION_DAYS="90"                                  # Retention period in days (adjust to fit your needs)
 ```
 
 #### Required Permissions
