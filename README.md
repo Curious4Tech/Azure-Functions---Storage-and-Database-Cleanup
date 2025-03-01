@@ -5,8 +5,6 @@ This project contains two Azure Functions that handle automated cleanup tasks:
 1. **Blob Storage Cleanup**: Removes archived blobs older than a specified retention period
 2. **Database Cleanup**: Deletes old records from Logs and AuditTrail tables
 
-## Architecture
-![Architecture Diagram](./docs/architecture.png)
 
 ## Functions Configuration
 
@@ -127,7 +125,7 @@ AND o.name IN ('Logs', 'AuditTrail');
 
 ### 4. Configure Environment Variables
 
-
+![image](https://github.com/user-attachments/assets/c13d6627-12c2-4976-a49b-76b3d586974d)
 
 ## Monitoring
 
@@ -153,8 +151,14 @@ Both functions provide detailed logging:
 
 ## Testing
 
+# Blob Storage Cleanup function
 
-```
+![image](https://github.com/user-attachments/assets/8c5c12f7-3e3d-4e0c-bb91-5285de9ebff9)
+
+# Database Cleanup function
+
+![image](https://github.com/user-attachments/assets/7742c4d9-188a-4505-b944-1c252ad5a847)
+
 
 ## Troubleshooting
 
@@ -211,5 +215,3 @@ Both functions provide detailed logging:
 4. Push to the branch
 5. Create a Pull Request
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
